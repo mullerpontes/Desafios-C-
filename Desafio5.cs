@@ -17,10 +17,10 @@ namespace Desafios_csharp.Desafios
                 }
             }
 
-            Console.WriteLine("Digite a linha que você deseja somar ou fazer a média: ");
+            Console.WriteLine("Digite a linha para fazer somar ou fazer a média: ");
             int linha = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite 's' para somar ou 'm' para fazer a média: ");
+            Console.WriteLine("Digite 'S' para somar ou 'M' para fazer a média: ");
             char opcao = char.Parse(Console.ReadLine());
 
             int soma = 0;
